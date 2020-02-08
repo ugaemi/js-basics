@@ -5,6 +5,7 @@ body {
 .btn {
     cursor: pointer;
 }
+
 body {
     color: white;
 }
@@ -39,4 +40,58 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+}
+
+.js-clock h1 {
+    font-size: 1050%;
+    margin: 0;
+}
+
+h4 {
+    font-size: 337.5%;
+    margin: 0;
+}
+
+.contents .js-toDoForm input {
+    width: 50%;
+    font-size: 200%;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.contents {
+    margin-top: 15%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+li span {
+    margin-right: 10px;
+}
+
+li button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
 }
